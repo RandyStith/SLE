@@ -46,28 +46,32 @@ ul {
     color: rgb(206, 206, 206);
     text-align: center;
     opacity: 0;
-    margin-top: 10vw;
+    margin-top: 10vw;  
   }
   .fade1 {
     animation-name: fadeout;
-    animation-iteration-count: 1;
+    animation-iteration-count: infinite;
     animation-delay: 5s;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+    animation-duration: 20s;
+    animation-fill-mode: both;
   }
 
   @keyframes fadeout {
-    from {}
-    to {display: none; opacity: 0;}
+    0% {}
+    5% {display: none; opacity: 0;}
+    50%{display: none; opacity: 0;}
+    60% {display: flex; opacity: 1;}
   }
 .fade2 {
   animation-name: fadein;
-  animation-iteration-count: 1;
-  animation-delay: 8s;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-delay: 6s ;
+  animation-duration: 20s;
+  animation-fill-mode: both;
 }
 @keyframes fadein {
-  from{ opacity: 0;}
-  to { opacity: 1;}
+  0% {}
+  5% { display: flex; opacity: 1; }   
+  39% {display: flex; opacity: 1; }
+  49% {display: none; opacity: 0 ;}
 }
