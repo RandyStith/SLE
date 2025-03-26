@@ -38,9 +38,24 @@ ul {
     color: rgb(206, 206, 206);
     font-size: 2vw;
     padding-top: 5vw;
-   
-    
   }
+
+  .foot {
+    background-color: rgb(14, 13, 13);
+    color: white;
+    margin-bottom: 0px;
+   position:  absolute;
+    bottom: 0;
+    width: 100%;
+   padding: 2vw;
+   font-size: 1.1vw;
+   text-align: center;
+  }
+.foote:hover {
+  color: rgb(3, 255, 242) ;
+  cursor: pointer;
+}
+
   .statement {
     font-size: 2.8vw;
     color: rgb(206, 206, 206);
