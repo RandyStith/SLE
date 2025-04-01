@@ -44,12 +44,13 @@ ul {
     background-color: rgb(14, 13, 13);
     color: white;
     margin-bottom: 0px;
-   position: static;
+   
     bottom: 0;
     width: 100%;
    padding: 2vw;
    font-size: 1.1vw;
    text-align: center;
+   margin-top: 10vw;
   }
 .foote:hover {
   color: rgb(3, 255, 242) ;
@@ -60,11 +61,8 @@ ul {
     font-size: 2.8vw;
     color: rgb(206, 206, 206);
     text-align: center;
+    padding: 0;
     opacity: 0;
-    margin-top: 10vw;  
-    margin-bottom: 13vw;
- 
-
   }
   .fade1 {
     animation-name: fadeout;
@@ -88,8 +86,11 @@ ul {
   animation-fill-mode: forwards;
 }
 @keyframes fadein {
-  0%  {display: none;}
-  8%  {display: flex; opacity: 1; }   
-  39% {display: flex; opacity: 1; }
-  48% {display: none; opacity: 0; }
+  0%  {display: none; margin-bottom: 11vw;}
+  8%  {display: flex; opacity: 1; margin-bottom: 11vw;}
+
+  39% {display: flex; opacity: 1; margin-bottom: 11vw; }
+  48% {display: none; opacity: 0; margin-bottom: 11vw;}
+  99% {margin-bottom: 11vw;}
+  100% {margin-bottom: 0vw;}
 }
