@@ -86,11 +86,14 @@ ul {
   animation-fill-mode: forwards;
 }
 @keyframes fadein {
-  0%  {display: none; margin-bottom: 11vw;}
-  8%  {display: flex; opacity: 1; margin-bottom: 11vw;}
+  0%  {display: none; margin-bottom: 0vw;}
+  0.999% {margin-bottom: 0vw;}
 
-  39% {display: flex; opacity: 1; margin-bottom: 11vw; }
-  48% {display: none; opacity: 0; margin-bottom: 11vw;}
-  99% {margin-bottom: 11vw;}
+  1%  {display: flex; opacity: 1; margin-bottom: 11.4vw;}
+
+  39% {display: flex; opacity: 1; margin-bottom: 11.4vw; }
+  45.2% {margin-bottom: 11.4vw;}
+  45.3% {display: none; opacity: 0; margin-bottom: 0vw;}
+
   100% {margin-bottom: 0vw;}
 }
