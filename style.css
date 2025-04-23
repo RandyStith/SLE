@@ -1,5 +1,12 @@
+@font-face {
+  font-family: 'Cambria';
+  src: url('img/Cambria-Font-For-Windows.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: 'Cambria', serif;
+ font-family: 'Cambria', serif;
 }
 
 ul {
@@ -22,6 +29,8 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 1vw;
+    
   }
   
   
@@ -70,14 +79,14 @@ ul {
     animation-name: fadein0;
     animation-iteration-count: 1;
     animation-delay: 0s;
-    animation-duration: 10s;
+    animation-duration: 7s;
     animation-fill-mode: forwards;
   }
   .fade2 {
     animation-name: fadein1;
     animation-iteration-count: 1;
-    animation-delay: 3s;
-    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-duration: 8s;
     animation-fill-mode: forwards;
     opacity: 0;
   }
@@ -85,7 +94,7 @@ ul {
     animation-name: fadein1;
     animation-iteration-count: 1;
     animation-delay: 0s;
-    animation-duration: 10s;
+    animation-duration: 8s;
     animation-fill-mode: forwards;
     opacity: 0;
   }
@@ -125,4 +134,15 @@ ul {
       transform: translateX(0%);
     }
     
+  }
+
+  .iframe {
+    background-color: white;
+    padding: 100px;
+    text-align: center;
+    border: solid grey;
+  }
+  .sideText {
+    background-color: white;
+    border: solid grey;
   }
