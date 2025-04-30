@@ -63,6 +63,9 @@ ul {
    text-align: center;
    margin-top: 10vw;
   }
+  .foote {
+    color: white;
+  }
 .foote:hover {
   color: rgb(3, 255, 242) ;
   cursor: pointer;
